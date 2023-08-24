@@ -1,0 +1,109 @@
+* {
+  cursor: url(2.png), default;
+}
+
+.navbar-nav a:hover {
+  color: rgb(3, 73, 191);
+}
+
+nav img {
+  width: 60px;
+}
+
+nav a.nav-link {
+  color: white;
+}
+
+header {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(back.jpeg);
+  background-size: 100% 100%;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.img1 .hero-pic {
+  border: 4px solid white;
+  border-radius: 5px;
+  height: 50vh;
+  margin: 0 3px 0 3px;
+  width: 120px;
+  opacity: 0.7;
+  position: relative;
+  z-index: 2;
+}
+
+.img2 .hero-pic {
+  border: 4px solid white;
+  border-radius: 5px;
+  height: 50vh;
+  margin: 200px 3px 0 3px;
+  width: 120px;
+  opacity: 0.7;
+  position: relative;
+  z-index: 2;
+}
+
+.hero-gif {
+  opacity: 0;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.hero-gif2 {
+  opacity: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 63%;
+  object-fit: fill;
+}
+
+.img1:hover .hero-pic {
+  opacity: 0;
+}
+
+.img1:hover .hero-gif {
+  opacity: 1;
+  z-index: 3;
+  transform: scaleX(3);
+  transition: 0.5s ease;
+}
+
+.img2:hover .hero-pic {
+  opacity: 0;
+}
+
+.img2:hover .hero-gif2 {
+  opacity: 1;
+  z-index: 3;
+  transform: scaleX(3);
+  transition: 0.5s ease;
+}
+
+@media (max-width: 1310px) {
+  header {
+    height: auto;
+    padding-top: 80px;
+  }
+
+  .hero {
+    flex-wrap: wrap;
+  }
+
+  .img1 .hero-pic,
+  .img2 .hero-pic {
+    margin: 0;
+  }
+}

@@ -1,0 +1,75 @@
+* {
+  cursor: url(2.png), default;
+}
+
+.navbar-nav a:hover {
+  color: rgb(3, 73, 191);
+}
+
+nav img {
+  width: 60px;
+}
+
+nav a.nav-link {
+  color: white;
+}
+
+
+.shadow {
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: absolute;
+}
+
+.point img{
+  width: 120px;
+}
+
+.fst {
+  background-image: url(world-image/fst.jpeg);
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+  z-index: -2;
+  background-attachment: fixed;
+}
+
+
+.scd {
+  background-image: url(world-image/scd.jpeg);
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+  z-index: -2;
+  background-attachment: fixed;
+}
+
+.thd {
+  background-image: url(world-image/thd.jpeg);
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+  z-index: -2;
+  background-attachment: fixed;
+}
+
+.fth {
+  background-image: url(world-image/fth.jpeg);
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+  z-index: -2;
+  background-attachment: fixed;
+}
+
+.fiv {
+  background-image: url(world-image/fiv.jpeg);
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+  z-index: -2;
+  background-attachment: fixed;
+}
+
